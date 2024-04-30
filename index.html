@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="header" id="headers">
+        <div class="container">
+            <nav>
+                <p>Apoorva Sunkad</p>
+                <ul id="sideMenu">
+                    <li><a href="#headers">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <i class="fa-sharp fa-solid fa-square-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+
+        <div class="left">
+            <p>Hello! &#128075; I am <span>Apoorva.</span><br>
+            I am an Aspiring <span id="element"></span><br>
+            <a href="https://www.linkedin.com/in/apoorvasunkad15" target="_blank" class="btn1">Connect Me</a>
+            </p>
+            <img src="./images/dev2.avif">
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright  &copy; Apoorva Sunkad. Made with <i class="fa-solid fa-heart"></i> by Apoorva Sunkad</p>
+    </div>
+
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/e6a8f5195c.js" crossorigin="anonymous"></script>
+
+    <!-- For text animation - using typed js it is JS typing Animation library -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        // Github Link: https://github.com/mattboldt/typed.js
+        var typed = new Typed('#element', {
+          strings: ['Software Engineer', 'Web Developer.'],
+          typeSpeed: 50,
+        });
+    </script>
+    <script src="app.js"></script>
+    <script>
+        const sidemenu = document.getElementById("sideMenu");
+        function openMenu() {
+            sidemenu.style.right = "0";
+        }
+        function closeMenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
