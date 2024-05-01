@@ -119,7 +119,7 @@ nav .fa-gear{
         font-size: 30px;
     }
     .left{
-        margin: 15%;
+        margin: 45%;
     }
     .left p{
         font-size: 1.5rem;
@@ -131,7 +131,8 @@ nav .fa-gear{
         padding: 10px 30px;
     }
     .copyright{
-        margin-top: 95%;
+        height: 20%;
+        margin-top: 120%;
     }
     nav .fa-solid{
         display: block;
