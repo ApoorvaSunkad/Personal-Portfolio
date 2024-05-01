@@ -119,19 +119,19 @@ nav .fa-gear{
         font-size: 30px;
     }
     .left{
-        margin-top: 15%;
+        margin: 15%;
     }
     .left p{
         font-size: 1.5rem;
         text-align: center;
-        margin-top: 16%;
+        margin-top: 20%;
     }
     .btn1{
         font-size: 15px;
         padding: 10px 30px;
     }
     .copyright{
-        margin-top: 90%;
+        margin-top: 95%;
     }
     nav .fa-solid{
         display: block;
