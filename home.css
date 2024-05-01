@@ -118,6 +118,9 @@ nav .fa-gear{
     nav p{
         font-size: 30px;
     }
+    .left{
+        margin-top: 15%;
+    }
     .left p{
         font-size: 1.5rem;
         text-align: center;
