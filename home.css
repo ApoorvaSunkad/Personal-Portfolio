@@ -86,10 +86,12 @@ nav ul li a:hover::after{
 
 /* Footer */
 .copyright{
+    /* width: 100%; */
     text-align: center;
     padding: 25px 0;
     background: rgb(93, 90, 90);
     color: #fff;
+    margin-top: 10%;
     font-weight: 300;
     font-family: "Mukta", sans-serif;
 }
